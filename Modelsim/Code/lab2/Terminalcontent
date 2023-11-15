@@ -1,0 +1,193 @@
+Terminal1------------------------------------------------------
+[draco] [/home/p/p_thibe] > /CMC/ENVIRONMENT/modelsim.env
+/CMC/ENVIRONMENT/modelsim.env: Permission denied.
+[draco] [/home/p/p_thibe] > source /CMC/ENVIRONMENT/modelsim.env
+[draco] [/home/p/p_thibe] > ls
+Class_prep  COEN313  Documents	Music	  Public     transcript
+COEN311     Desktop  Downloads	Pictures  Templates  Videos
+[draco] [/home/p/p_thibe] > cd COEN313 
+[draco] [/home/p/p_thibe/COEN313] > ls
+Modelsim
+[draco] [/home/p/p_thibe/COEN313] > cd Modelsim
+[draco] [/home/p/p_thibe/COEN313/Modelsim] > ls
+Code  Up to higher level directory.desktop
+[draco] [/home/p/p_thibe/COEN313/Modelsim] > cd Code
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > ls
+lab1  lab2
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > lab1
+lab1: Command not found.
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > cd lab1
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > ls
+and2.vhd  File:fulladder.xdc.desktop  half_adder_regular_outputs.vhd  vsim.wlf	wlfta65wwz  work
+DO	  full_adder_nexysboard.vhd   transcript		      wave.ps	wlftaWZ7P2
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > vlib work
+** Warning: (vlib-34) Library already exists at "work".
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > lsusb
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 002: ID 03f0:344a HP, Inc 
+Bus 001 Device 004: ID 0403:6010 Future Technology Devices International, Ltd FT2232C/D/H Dual UART/FIFO IC
+Bus 001 Device 003: ID 03f0:094a HP, Inc Optical Mouse [672662-001]
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > source /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > source /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/settings64_CMC_central_license.csh
+XILINXD_LICENSE_FILE is set to 6062@license-cadpass.encs.concordia.ca:6088@license-cadpass.encs.concordia.ca
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > vivado &
+[1] 27223
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > 
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+start_gui
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 20 14:51:05 2023...
+
+[1]    Done                          vivado
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > 
+
+
+
+
+Terminal 2 ----------------------------------------------------------------------------
+
+[draco] [/home/p/p_thibe] > ls
+Class_prep  COEN313  Documents	Music	  Public     transcript
+COEN311     Desktop  Downloads	Pictures  Templates  Videos
+[draco] [/home/p/p_thibe] > cd COEN313
+[draco] [/home/p/p_thibe/COEN313] > ls
+Modelsim
+[draco] [/home/p/p_thibe/COEN313] > cd Modelsim
+[draco] [/home/p/p_thibe/COEN313/Modelsim] > ls
+Code  Up to higher level directory.desktop
+[draco] [/home/p/p_thibe/COEN313/Modelsim] > cd Code
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > ls
+lab1  lab2
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > cd lab1\
+? 
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > l
+l: Command not found.
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > ls
+and2.vhd		    full_adder_nexysboard.vhd	    transcript	vivado_pid27278.str  wlfta65wwz
+DO			    half_adder_regular_outputs.vhd  vivado.jou	vsim.wlf	     wlftaWZ7P2
+File:fulladder.xdc.desktop  lab_1_full_adder		    vivado.log	wave.ps		     work
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > mkdir fulladder.xdc
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > ls
+and2.vhd		    fulladder.xdc		    vivado.jou		 wave.ps
+DO			    half_adder_regular_outputs.vhd  vivado.log		 wlfta65wwz
+File:fulladder.xdc.desktop  lab_1_full_adder		    vivado_pid27278.str  wlftaWZ7P2
+full_adder_nexysboard.vhd   transcript			    vsim.wlf		 work
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > nano fulladder.xdc
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > ls\
+? 
+and2.vhd		   half_adder_regular_outputs.vhd  vivado.jou		wave.ps
+DO			   lab_1_full_adder		   vivado.log		wlfta65wwz
+full_adder_nexysboard.vhd  Link to File:fulladder.desktop  vivado_pid27278.str	wlftaWZ7P2
+fulladder.xdc		   transcript			   vsim.wlf		work
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > nano synthesis
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > source /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/settings64_CMC_central_license.csh
+XILINXD_LICENSE_FILE is set to 6062@license-cadpass.encs.concordia.ca:6088@license-cadpass.encs.concordia.ca
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > ls
+and2.vhd		   half_adder_regular_outputs.vhd  vivado.jou  wlfta65wwz
+DO			   lab_1_full_adder		   vivado.log  wlftaWZ7P2
+full_adder_nexysboard.vhd  Link to File:fulladder.desktop  vsim.wlf    work
+fulladder.xdc		   transcript			   wave.ps
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab1] > cd ..
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > lab2
+lab2: Command not found.
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > cd lab2
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > source /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/settings64_CMC_central_license.csh
+XILINXD_LICENSE_FILE is set to 6062@license-cadpass.encs.concordia.ca:6088@license-cadpass.encs.concordia.ca
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > vivado &
+[1] 3685
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > 
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+start_gui
+
+Terminal 3 -----------------------------------------------------------------------
+
+[draco] [/home/p/p_thibe] > ls
+Class_prep  COEN313  Documents	Music	  Public     transcript
+COEN311     Desktop  Downloads	Pictures  Templates  Videos
+[draco] [/home/p/p_thibe] > cd COEN313
+[draco] [/home/p/p_thibe/COEN313] > ls
+Modelsim
+[draco] [/home/p/p_thibe/COEN313] > cd Modelsim
+[draco] [/home/p/p_thibe/COEN313/Modelsim] > ls
+Code  Up to higher level directory.desktop
+[draco] [/home/p/p_thibe/COEN313/Modelsim] > cd Code
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > ls
+lab1  lab2
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code] > cd lab2
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > la
+la: Command not found.
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > ls
+File:lab2.pdf.desktop  Lab_2_Sum_of_product  vivado.jou  vivado.log  vivado_pid3740.str
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > vlib work
+vlib: Command not found.
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > cd /home/p/p_thibe/COEN313
+[draco] [/home/p/p_thibe/COEN313] > cd ..\
+? 
+[draco] [/home/p/p_thibe] > source /CMC/ENVIRONMENT/modelsim.env
+[draco] [/home/p/p_thibe] > cd /home/p/p_thibe/COEN313/Modelsim/Code/lab2
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > vlib work
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > nano minterms.vhd
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > vcom minterms.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity minterms
+-- Compiling architecture lab2code of minterms
+** Error: minterms.vhd(11): near "signal": syntax error
+** Error: minterms.vhd(14): near "(": expecting "MAP"
+** Error: minterms.vhd(14): near "out": expecting "WITH"
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > ls
+File:lab2.pdf.desktop  minterms.vhd  vivado.log		 work
+Lab_2_Sum_of_product   vivado.jou    vivado_pid3740.str
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > vcom minterms.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity minterms
+-- Compiling architecture lab2code of minterms
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > cd work
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work] > ls
+_info  minterms  _temp	_vmake
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work] > ls -al
+total 20
+drwxrwx--- 4 p_thibe p_thibe 4096 Oct 20 16:14 .
+drwxr-xr-x 4 p_thibe p_thibe 4096 Oct 20 16:14 ..
+-rw-rw---- 1 p_thibe p_thibe  497 Oct 20 16:14 _info
+drwxrwx--- 2 p_thibe p_thibe 4096 Oct 20 16:14 minterms
+drwxrwx--- 2 p_thibe p_thibe 4096 Oct 20 16:14 _temp
+-rw-rw---- 1 p_thibe p_thibe   26 Oct 20 16:14 _vmake
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work] > vsim minterms &
+[1] 8730
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim minterms
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work] > vcom minterms.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+** Error: (vcom-7) Failed to open design unit file "minterms.vhd" in read mode.
+No such file or directory. (errno = ENOENT)
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work] > vcom minterms.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+** Error: (vcom-7) Failed to open design unit file "minterms.vhd" in read mode.
+No such file or directory. (errno = ENOENT)
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work] > cd ..
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > vcom minterms.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity minterms
+-- Compiling architecture lab2code of minterms
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > vsim minterms &
+[1] 8935
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim minterms
+[draco] [/home/p/p_thibe/COEN313/Modelsim/Code/lab2] > 
+

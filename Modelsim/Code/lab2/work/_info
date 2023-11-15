@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/p/p_thibe/COEN313/Modelsim/Code/lab2
+T_opt
+V1ncbC42dbAkaU6E0Xj^c11
+Z1 04 8 8 work minterms lab2code 1
+Z2 =1-c8d9d233ca86-65454c6e-d6f4f-4079
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 n@_opt
+Z5 OL;O;6.6g;45
+Z6 d/home/p/p_thibe/COEN313/Modelsim/Code/lab2
+T_opt1
+Z7 Vb<LWaN]Z@IaAnZ<Sm6;5G0
+R1
+Z8 =1-c8d9d233ca86-65453b23-bb307-1d16
+R3
+Z9 n@_opt1
+R5
+R6
+Eand_gate
+Z10 w1699038714
+Z11 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R6
+Z12 8And.vhd
+Z13 FAnd.vhd
+l0
+L5
+Z14 VG8kl7nY]aY66_N>S`Ql543
+Z15 OL;C;6.6g;45
+32
+Z16 tExplicit 1
+Z17 !s100 GN:L<8<d@co4Aok??7oCK0
+Atrue_outputs
+R11
+Z18 DEx4 work 8 and_gate 0 22 G8kl7nY]aY66_N>S`Ql543
+l11
+L10
+Z19 V[Mj<0YeDYOnVWZj6]B@FE0
+R15
+32
+Z20 Mx1 4 ieee 14 std_logic_1164
+R16
+Z21 !s100 CnTkk[Qc2UYaGPlhk@[nT2
+Abehavioral
+R11
+Z22 DEx4 work 8 and_gate 0 22 Mj1=47Zi;>5N@6K9]`8?e1
+l10
+L9
+Z23 V@L647>Sh@eNYec^Rko9h@0
+R15
+32
+R20
+Z24 o-work work
+R16
+Z25 w1699033185
+Z26 F/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/minterms.vhd
+Z27 8/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/minterms.vhd
+Z28 !s100 YkL7K2EZG986lZIB2bN^K1
+Eminterms
+Z29 w1699040286
+R11
+R6
+Z30 8minterms.vhd
+Z31 Fminterms.vhd
+l0
+L4
+Z32 VjEhIc[g^fid5XIk]=Eb6E2
+R15
+32
+R16
+Z33 !s100 XTLdn0Ym385HmKi<kbSbG1
+Alab2code
+Z34 DEx4 work 7 or_gate 0 22 A2@fYnB^[Fa88Zli?94kZ3
+R18
+R11
+Z35 DEx4 work 8 minterms 0 22 jEhIc[g^fid5XIk]=Eb6E2
+l28
+L9
+Z36 VT8jcFWO>FJLAF6M8z^i9C3
+R15
+32
+R20
+R16
+Z37 !s100 O4Zog1R4IfVS1?<LgL1BW2
+Eor_gate
+Z38 w1699038687
+R11
+R6
+Z39 8OR.vhd
+Z40 FOR.vhd
+l0
+L5
+Z41 VA2@fYnB^[Fa88Zli?94kZ3
+R15
+32
+R16
+Z42 !s100 HMNQ<3fFBTbz=dDSa1BAU0
+Atrue_outputs
+R11
+R34
+l11
+L10
+Z43 VRHOJ_H5SUK8T^9;:gPfJJ0
+R15
+32
+R20
+R16
+Z44 !s100 g]>i>DYL@TZ=k:lRk@i;h1

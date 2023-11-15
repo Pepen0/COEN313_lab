@@ -1,0 +1,116 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/p/p_thibe/COEN313/Modelsim/Code/lab2
+T_opt
+Z1 VNlb4Z2bQDABL?hGX=no251
+Z2 04 8 8 work minterms lab2code 1
+Z3 =2-c8d9d233ca86-65453986-16174-18dc
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.6g;45
+Z7 d/home/p/p_thibe/COEN313/Modelsim/Code/lab2
+T_opt1
+Z8 Vb<LWaN]Z@IaAnZ<Sm6;5G0
+R2
+Z9 =1-c8d9d233ca86-65453b23-bb307-1d16
+R4
+Z10 n@_opt1
+R6
+R7
+Eand_gate
+Z11 w1699034552
+Z12 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R7
+Z13 8/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/And.vhd
+Z14 F/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/And.vhd
+l0
+L5
+Z15 V@O2gR85oC:kSLl7c>9MMG1
+Z16 OL;C;6.6g;45
+Z17 o-work work
+Z18 tExplicit 1
+Z19 !s100 5S7fEY[NS[EK5961IX?[80
+Atrue_outputs
+R12
+Z20 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work 8 and_gate 0 22 @O2gR85oC:kSLl7c>9MMG1
+32
+Z21 Mx1 17 __model_tech/ieee 14 std_logic_1164
+l11
+L10
+Z22 VWY_?;kNX>=X=FQLh=HUSi1
+R16
+R17
+R18
+Z23 !s100 5`F9H1AhNHTnC[YKJ=ERW3
+Abehavioral
+Z24 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z25 DEx4 work 8 and_gate 0 22 Mj1=47Zi;>5N@6K9]`8?e1
+l10
+L9
+Z26 V@L647>Sh@eNYec^Rko9h@0
+R16
+32
+Z27 Mx1 4 ieee 14 std_logic_1164
+R17
+R18
+Z28 w1699033185
+Z29 F/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/minterms.vhd
+Z30 8/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/minterms.vhd
+Z31 !s100 YkL7K2EZG986lZIB2bN^K1
+Eminterms
+Z32 w1699034800
+R12
+32
+R7
+R30
+R29
+l0
+L5
+Z33 V[ZJ59XkCN[YDlM<m9b@Ng3
+R16
+R17
+R18
+Z34 !s100 XY5K`m::1jm`K1cMWk7mQ0
+Alab2code
+Z35 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work 7 or_gate 0 22 S?oK4SHW2e>4<D7hi02RH0
+R20
+R12
+DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work 8 minterms 0 22 [ZJ59XkCN[YDlM<m9b@Ng3
+32
+R21
+l24
+L9
+Z36 VzhnkMPQOi:Ki;0?95fF>G0
+R16
+R17
+R18
+Z37 !s100 5[GON[je6aM0^6>ViD^Te3
+Eor_gate
+Z38 w1699034563
+R12
+32
+R7
+Z39 8/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/OR.vhd
+Z40 F/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/OR.vhd
+l0
+L5
+Z41 VS?oK4SHW2e>4<D7hi02RH0
+R16
+R17
+R18
+Z42 !s100 _7A01fT:6nRFPZ2?ZUjWc1
+Atrue_outputs
+R12
+R35
+32
+R21
+l11
+L10
+Z43 V1fb5QzL9oI>71[<UzkMJD1
+R16
+R17
+R18
+Z44 !s100 YO5;VXXWDf;FozPcO9oDo0

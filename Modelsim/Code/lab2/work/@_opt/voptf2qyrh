@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/p/p_thibe/COEN313/Modelsim/Code/lab2
+T_opt
+Z1 V1ncbC42dbAkaU6E0Xj^c11
+Z2 04 8 8 work minterms lab2code 1
+Z3 =1-c8d9d233ca86-65454c6e-d6f4f-4079
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.6g;45
+Z7 d/home/p/p_thibe/COEN313/Modelsim/Code/lab2
+T_opt1
+Z8 Vb<LWaN]Z@IaAnZ<Sm6;5G0
+R2
+Z9 =1-c8d9d233ca86-65453b23-bb307-1d16
+R4
+Z10 n@_opt1
+R6
+R7
+Eand_gate
+Z11 w1699038714
+Z12 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R7
+Z13 8And.vhd
+Z14 FAnd.vhd
+l0
+L5
+Z15 VG8kl7nY]aY66_N>S`Ql543
+Z16 OL;C;6.6g;45
+Z17 tExplicit 1
+Z18 !s100 GN:L<8<d@co4Aok??7oCK0
+Atrue_outputs
+R12
+Z19 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work 8 and_gate 0 22 G8kl7nY]aY66_N>S`Ql543
+32
+Z20 Mx1 17 __model_tech/ieee 14 std_logic_1164
+l11
+L10
+Z21 V[Mj<0YeDYOnVWZj6]B@FE0
+R16
+R17
+Z22 !s100 CnTkk[Qc2UYaGPlhk@[nT2
+Abehavioral
+Z23 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z24 DEx4 work 8 and_gate 0 22 Mj1=47Zi;>5N@6K9]`8?e1
+l10
+L9
+Z25 V@L647>Sh@eNYec^Rko9h@0
+R16
+32
+Z26 Mx1 4 ieee 14 std_logic_1164
+Z27 o-work work
+R17
+Z28 w1699033185
+Z29 F/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/minterms.vhd
+Z30 8/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/minterms.vhd
+Z31 !s100 YkL7K2EZG986lZIB2bN^K1
+Eminterms
+Z32 w1699040286
+R12
+32
+R7
+Z33 8minterms.vhd
+Z34 Fminterms.vhd
+l0
+L4
+Z35 VjEhIc[g^fid5XIk]=Eb6E2
+R16
+R17
+Z36 !s100 XTLdn0Ym385HmKi<kbSbG1
+Alab2code
+Z37 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work 7 or_gate 0 22 A2@fYnB^[Fa88Zli?94kZ3
+R19
+R12
+DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/work 8 minterms 0 22 jEhIc[g^fid5XIk]=Eb6E2
+32
+R20
+l28
+L9
+Z38 VT8jcFWO>FJLAF6M8z^i9C3
+R16
+R17
+Z39 !s100 O4Zog1R4IfVS1?<LgL1BW2
+Eor_gate
+Z40 w1699038687
+R12
+32
+R7
+Z41 8OR.vhd
+Z42 FOR.vhd
+l0
+L5
+Z43 VA2@fYnB^[Fa88Zli?94kZ3
+R16
+R17
+Z44 !s100 HMNQ<3fFBTbz=dDSa1BAU0
+Atrue_outputs
+R12
+R37
+32
+R20
+l11
+L10
+Z45 VRHOJ_H5SUK8T^9;:gPfJJ0
+R16
+R17
+Z46 !s100 g]>i>DYL@TZ=k:lRk@i;h1

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov  3 14:49:01 2023
+# Process ID: 9376
+# Current directory: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/synth_1
+# Command line: vivado -log minterms.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source minterms.tcl
+# Log file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/synth_1/minterms.vds
+# Journal file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source minterms.tcl -notrace

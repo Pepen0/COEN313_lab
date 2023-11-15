@@ -1,0 +1,102 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/p/p_thibe/Modelsim/Code
+T_opt
+Z1 VOe:K^jXj2X`fm@GVLITc`0
+Z2 04 10 10 work full_adder structural 1
+Z3 =1-c8d9d233d0df-651721ff-1056d-28c0
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.6g;45
+Z7 d/home/p/p_thibe/Modelsim/Code
+T_opt1
+Z8 V1U8cS<eBHAh4=A9OoXi4R3
+R2
+Z9 =1-c8d9d233d0df-65172e08-61311-343f
+R4
+Z10 n@_opt1
+R6
+R7
+T_opt2
+Z11 VS4Kf0N9E;mad1R1XLDeA00
+R2
+Z12 =1-c8d9d233d0df-65172eb5-71353-351e
+R4
+Z13 n@_opt2
+R6
+R7
+Eand2_gate
+Z14 w1696013497
+Z15 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R7
+Z16 8and2.vhd
+Z17 Fand2.vhd
+l0
+L3
+Z18 V[f7zng5`YA^CAj?F[nZiK0
+Z19 OL;C;6.6g;45
+32
+Z20 tExplicit 1
+Z21 !s100 RSHD79gLkLe?RURGFX2KL0
+Aexample
+R15
+Z22 DEx4 work 9 and2_gate 0 22 [f7zng5`YA^CAj?F[nZiK0
+l9
+L9
+Z23 V0V`5`Yzij>Qn^[>WT_OMf2
+R19
+32
+Z24 Mx1 4 ieee 14 std_logic_1164
+R20
+Z25 !s100 B5hAimK43OZz?DYdb6Hlj0
+Efull_adder
+Z26 w1696010879
+Z27 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R7
+Z28 8full_adder_nexysboard.vhd
+Z29 Ffull_adder_nexysboard.vhd
+l0
+L4
+Z30 VcU1>2h6EXWYTLZWAac`^L3
+R19
+R20
+Z31 !s100 =7NTIH]bSziN=NO:mLoVa3
+Astructural
+Z32 DEx38 /nfs/home/p/p_thibe/Modelsim/Code/work 10 half_adder 0 22 <O0DM^8<PnKVmP53?W@KH2
+R27
+DEx38 /nfs/home/p/p_thibe/Modelsim/Code/work 10 full_adder 0 22 cU1>2h6EXWYTLZWAac`^L3
+32
+Z33 Mx1 17 __model_tech/ieee 14 std_logic_1164
+l30
+L9
+Z34 VCh=LTc@`O^0V>RB_fiU=U2
+R19
+R20
+Z35 !s100 il^]ZmR5Vd9d3Aa7Md0jS0
+Ehalf_adder
+R26
+R27
+32
+R7
+Z36 8half_adder_regular_outputs.vhd
+Z37 Fhalf_adder_regular_outputs.vhd
+l0
+L5
+Z38 V<O0DM^8<PnKVmP53?W@KH2
+R19
+R20
+Z39 !s100 D`Y6=hMc[61k6Pn94ZH`;2
+Atrue_outputs
+R27
+R32
+32
+R33
+l11
+L10
+Z40 VD1A3]4T<>k6>=g<R9M_=_2
+R19
+R20
+Z41 !s100 N05K<fkiN<2PnYEYg4?]>0

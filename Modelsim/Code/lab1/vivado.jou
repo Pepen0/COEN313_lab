@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Oct 20 13:37:49 2023
+# Process ID: 27278
+# Current directory: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1
+# Command line: vivado
+# Log file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1/vivado.log
+# Journal file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project lab_1_full_adder /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1/lab_1_full_adder -part xc7a100tcsg324-1
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1/half_adder_regular_outputs.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1/full_adder_nexysboard.vhd}
+import_files -fileset constrs_1 -force -norecurse /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1/fulladder.xdc
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1/lab_1_full_adder/lab_1_full_adder.runs/impl_1/full_adder.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab1/lab_1_full_adder/lab_1_full_adder.runs/impl_1/full_adder.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

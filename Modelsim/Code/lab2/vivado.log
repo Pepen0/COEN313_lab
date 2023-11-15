@@ -1,0 +1,255 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov  3 14:44:12 2023
+# Process ID: 8820
+# Current directory: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2
+# Command line: vivado
+# Log file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/vivado.log
+# Journal file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project lab2 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2 -part xc7a100tcsg324-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 6274.516 ; gain = 37.086 ; free physical = 11318 ; free virtual = 23386
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/And.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/OR.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/minterms.vhd}
+import_files -force -norecurse
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+import_files -fileset constrs_1 -force -norecurse /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/minterms.XDC
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+[Fri Nov  3 14:49:00 2023] Launched synth_1...
+Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Fri Nov  3 14:50:22 2023] Launched impl_1...
+Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+[Fri Nov  3 14:50:42 2023] Launched impl_1...
+Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/constrs_1/imports/lab2/minterms.XDC]
+Finished Parsing XDC File [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/constrs_1/imports/lab2/minterms.XDC]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:33 . Memory (MB): peak = 6693.246 ; gain = 308.051 ; free physical = 9801 ; free virtual = 21947
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: minterms
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 7106.160 ; gain = 61.992 ; free physical = 10422 ; free virtual = 22572
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'minterms' [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/minterms.vhd:9]
+INFO: [Synth 8-3491] module 'AND_GATE' declared at '/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/And.vhd:5' bound to instance 'Step_1' of component 'AND_GATE' [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/minterms.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'AND_GATE' [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/And.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'AND_GATE' (1#1) [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/And.vhd:10]
+INFO: [Synth 8-3491] module 'AND_GATE' declared at '/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/And.vhd:5' bound to instance 'Step_2' of component 'AND_GATE' [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/minterms.vhd:30]
+INFO: [Synth 8-3491] module 'AND_GATE' declared at '/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/And.vhd:5' bound to instance 'Step_3' of component 'AND_GATE' [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/minterms.vhd:31]
+INFO: [Synth 8-3491] module 'OR_GATE' declared at '/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/OR.vhd:5' bound to instance 'Step_4' of component 'OR_GATE' [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/minterms.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'OR_GATE' [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/OR.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'OR_GATE' (2#1) [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/OR.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'minterms' (3#1) [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/sources_1/imports/lab2/minterms.vhd:9]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 7142.426 ; gain = 98.258 ; free physical = 10438 ; free virtual = 22588
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 7142.426 ; gain = 98.258 ; free physical = 10437 ; free virtual = 22587
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 7142.426 ; gain = 98.258 ; free physical = 10437 ; free virtual = 22587
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/constrs_1/imports/lab2/minterms.XDC]
+Finished Parsing XDC File [/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.srcs/constrs_1/imports/lab2/minterms.XDC]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 7327.867 ; gain = 283.699 ; free physical = 10317 ; free virtual = 22467
+13 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 7327.867 ; gain = 283.699 ; free physical = 10317 ; free virtual = 22467
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Nov  3 14:54:05 2023] Launched impl_1...
+Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 7415.023 ; gain = 0.000 ; free physical = 10220 ; free virtual = 22379
+Restored from archive | CPU: 0.010000 secs | Memory: 0.018845 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 7415.023 ; gain = 0.000 ; free physical = 10220 ; free virtual = 22379
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:18:37
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/minterms.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/minterms.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/minterms.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/minterms.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/minterms.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/lab2/lab2.runs/impl_1/minterms.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'A'; it is not accessible from the fabric routing.
+write_schematic -format pdf -orientation portrait /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/schematic_imp.pdf
+/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/schematic_imp.pdf
+current_design synth_1
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'A'; it is not accessible from the fabric routing.
+write_schematic -format pdf -orientation portrait /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/schematicsynthesis.pdf
+/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/schematicsynthesis.pdf
+current_design rtl_1
+write_schematic -format pdf -orientation portrait /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/schematicinitial.pdf
+/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab2/schematicinitial.pdf
+current_design synth_1
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF5C4A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  3 16:04:58 2023...
