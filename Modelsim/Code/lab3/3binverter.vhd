@@ -10,5 +10,5 @@ end entity;
 
 architecture true_outputs of 3binverter is
 begin
-    out1 <= not in1;
+    out1(2 downto 0) <= not in1(2 downto 0);
 end architecture;
