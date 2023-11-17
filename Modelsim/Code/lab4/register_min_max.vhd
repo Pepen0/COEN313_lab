@@ -78,8 +78,8 @@ mux : fbMUX port map(reg3 => r3, reg2 => r2, reg1 => r1, reg0 => r0, sel => sel,
 
 Max_Min_comb_logic : minMaxComb port map(reg3 => r3, reg2 => r2, reg1 => r1, reg0 => r0, minout => min_comb, maxout => max_comb);
 
-Max_led : max_reg port map(din => max_comb, clk => clk, maxout => max_out);
-Min_led : min_reg port map(din => min_comb, clk => clk, minout => min_out);
+Max_led : max_reg port map(din => max_comb, clk => clk, reset => reset, maxout => max_out);                 
+Min_led : min_reg port map(din => min_comb, clk => clk, reset => reset, minout => min_out);
 
 
 end architecture;
