@@ -1,0 +1,345 @@
+Terminal 1 content=====================================================================
+[tlingit] [/home/p/p_thibe] > ls
+Class_prep  COEN313  Documents	Music	  Public     transcript
+COEN311     Desktop  Downloads	Pictures  Templates  Videos
+[tlingit] [/home/p/p_thibe] > cd COEN313
+[tlingit] [/home/p/p_thibe/COEN313] > ls
+Modelsim
+[tlingit] [/home/p/p_thibe/COEN313] > cd Modelsim/Code/lab3
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > source /CMC/ENVIRONMENT/modelsim.env
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vlib work
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > ls
+3binverter.vhd	3bpadder.vhd		    converter.vhd  Do	     Stuff_needed  work
+3bMUX.vhd	40212017_Lab_report_3.docx  converter.XDC  lab3.pdf  transcript
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+** Warning: [4] 3binverter.vhd(4): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: 3binverter.vhd(4): near "3": expecting "IDENTIFIER"
+** Error: 3bpadder.vhd(1): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity tbinverter
+** Warning: [4] 3binverter.vhd(11): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: 3binverter.vhd(11): near "3": expecting "IDENTIFIER"
+** Error: 3bpadder.vhd(1): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+** Error: 3bpadder.vhd(3): (vcom-1136) Unknown identifier "std_logic_vector".
+** Error: 3bpadder.vhd(4): (vcom-1136) Unknown identifier "std_logic_vector".
+** Error: 3bpadder.vhd(6): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture behavioral of tbpadder
+** Error: 3bpadder.vhd(18): Cannot read output "out1".
+** Error: 3bpadder.vhd(18): Cannot read output "out1".
+** Error: 3bpadder.vhd(19): Cannot read output "out1".
+** Error: 3bpadder.vhd(22): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture behavioral of tbpadder
+** Error: 3bpadder.vhd(18): Cannot read output "out1".
+** Error: 3bpadder.vhd(18): Cannot read output "out1".
+** Error: 3bpadder.vhd(19): Cannot read output "out1".
+** Error: 3bpadder.vhd(22): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture behavioral of tbpadder
+** Error: 3bpadder.vhd(20): Target of signal assignment is not a signal.
+** Error: 3bpadder.vhd(25): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture behavioral of tbpadder
+** Error: 3bpadder.vhd(20): Target of signal assignment is not a signal.
+** Error: 3bpadder.vhd(23): Signal "out1" cannot be target of variable assignment statement.
+** Error: 3bpadder.vhd(25): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture behavioral of tbpadder
+** Error: 3bpadder.vhd(20): Target of signal assignment is not a signal.
+** Error: 3bpadder.vhd(25): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture behavioral of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+** Error: 3bMUX.vhd(18): Illegal concurrent statement.
+** Error: 3bMUX.vhd(24): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture behavioral of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+** Error: 3bMUX.vhd(24): near "architecture": expecting "PROCESS"
+** Error: converter.vhd(6): near "is": expecting ';'
+** Error: converter.vhd(9): near "out": expecting "WITH"
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture behavioral of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+-- Compiling entity converter
+-- Compiling architecture rtl of converter
+-- Loading entity tbinverter
+-- Loading entity tbmux
+-- Loading entity tbpadder
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > cd work
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work] > ls -al
+total 32
+drwxrwx--- 7 p_thibe p_thibe 4096 Nov 16 20:19 .
+drwxr-xr-x 4 p_thibe p_thibe 4096 Nov 16 20:17 ..
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:19 converter
+-rw-rw---- 1 p_thibe p_thibe 1621 Nov 16 20:19 _info
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:19 tbinverter
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:19 tbmux
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:19 tbpadder
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:19 _temp
+-rw-rw---- 1 p_thibe p_thibe   26 Nov 16 20:19 _vmake
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work] > cd ..
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vsim -do Do/converter.do converter &
+[1] 10762
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim -do Do/converter.do converter
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture true_outputs of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+-- Compiling entity converter
+-- Compiling architecture rtl of converter
+-- Loading entity tbinverter
+-- Loading entity tbmux
+-- Loading entity tbpadder
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > cd work                                         [tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work] > ls -al
+total 32
+drwxrwx--- 7 p_thibe p_thibe 4096 Nov 16 20:26 .
+drwxr-xr-x 4 p_thibe p_thibe 4096 Nov 16 20:25 ..
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:26 converter
+-rw-rw---- 1 p_thibe p_thibe 1754 Nov 16 20:26 _info
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:26 tbinverter
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:26 tbmux
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:26 tbpadder
+drwxrwx--- 2 p_thibe p_thibe 4096 Nov 16 20:26 _temp
+-rw-rw---- 1 p_thibe p_thibe   26 Nov 16 20:26 _vmake
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work] > cd ..
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vsim -do Do/converter.do converter &            [1] 11018
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim -do Do/converter.do converter
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture true_outputs of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+-- Compiling entity converter
+-- Compiling architecture rtl of converter
+-- Loading entity tbinverter
+-- Loading entity tbpadder
+-- Loading entity tbmux
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vsim -do Do/converter.do converter &            [1] 12167
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim -do Do/converter.do converter
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture true_outputs of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+-- Compiling entity converter
+-- Compiling architecture rtl of converter
+-- Loading entity tbinverter
+-- Loading entity tbpadder
+-- Loading entity tbmux
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vsim -do Do/converter.do converter &            [1] 12353
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim -do Do/converter.do converter
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture true_outputs of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+-- Compiling entity converter
+-- Compiling architecture rtl of converter
+-- Loading entity tbinverter
+-- Loading entity tbpadder
+-- Loading entity tbmux
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vsim -do Do/converter.do converter &            [1] 12910
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim -do Do/converter.do converter
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture true_outputs of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+-- Compiling entity converter
+-- Compiling architecture rtl of converter
+-- Loading entity tbinverter
+-- Loading entity tbpadder
+-- Loading entity tbmux
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vsim -do Do/converter.do converter &            [1] 13230
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim -do Do/converter.do converter
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture true_outputs of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+-- Compiling entity converter
+-- Compiling architecture rtl of converter
+-- Loading entity tbinverter
+-- Loading entity tbpadder
+-- Loading entity tbmux
+** Error: converter.vhd(55): (vcom-1272) Length of formal "in1" is 3; length of actual is 4.
+** Error: converter.vhd(60): VHDL Compiler exiting
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vcom 3binverter.vhd 3bpadder.vhd 3bMUX.vhd converter.vhd
+Model Technology ModelSim SE-64 vcom 6.6g Compiler 2012.05 May 23 2012
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tbinverter
+-- Compiling architecture true_outputs of tbinverter
+-- Compiling entity tbpadder
+-- Compiling architecture true_outputs of tbpadder
+-- Compiling entity tbmux
+-- Compiling architecture true_outputs of tbmux
+-- Compiling entity converter
+-- Compiling architecture rtl of converter
+-- Loading entity tbinverter
+-- Loading entity tbpadder
+-- Loading entity tbmux
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > vsim -do Do/converter.do converter &            [1] 13616
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > Reading /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/modelsim_6.6g/modeltech/tcl/vsim/pref.tcl 
+
+[1]    Done                          vsim -do Do/converter.do converter
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code/lab3] > cd ..
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim/Code] > cd ..
+[tlingit] [/home/p/p_thibe/COEN313/Modelsim] > cd ..
+[tlingit] [/home/p/p_thibe/COEN313] > source /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/settings64_CMC_central_license.csh
+XILINXD_LICENSE_FILE is set to 6062@license-cadpass.encs.concordia.ca:6088@license-cadpass.encs.concordia.ca
+[tlingit] [/home/p/p_thibe/COEN313] > source /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/settings64_CMC_central_license.csh
+XILINXD_LICENSE_FILE is set to 6062@license-cadpass.encs.concordia.ca:6088@license-cadpass.encs.concordia.ca
+[tlingit] [/home/p/p_thibe/COEN313] > vivado &
+[1] 15415
+[tlingit] [/home/p/p_thibe/COEN313] > 
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+[tlingit] [/home/p/p_thibe/COEN313] > start_gui
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 16 22:04:09 2023...
+
+[1]    Done                          vivado
+

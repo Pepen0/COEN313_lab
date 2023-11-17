@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 16 21:27:14 2023
+# Process ID: 15470
+# Current directory: /nfs/home/p/p_thibe/COEN313
+# Command line: vivado
+# Log file: /nfs/home/p/p_thibe/COEN313/vivado.log
+# Journal file: /nfs/home/p/p_thibe/COEN313/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project Lab_3 /nfs/home/p/p_thibe/COEN313/Lab_3 -part xc7a100tcsg324-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 6300.156 ; gain = 4.848 ; free physical = 10970 ; free virtual = 22676
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/converter.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/3bpadder.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/3binverter.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/3bMUX.vhd}
+import_files -force -norecurse
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+import_files -fileset constrs_1 -force -norecurse /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/converter.XDC
+update_compile_order -fileset sources_1
+set_property target_constrs_file /nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.srcs/constrs_1/imports/lab3/converter.XDC [current_fileset -constrset]
+launch_runs synth_1 -jobs 6
+[Thu Nov 16 21:36:41 2023] Launched synth_1...
+Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Thu Nov 16 21:37:53 2023] Launched impl_1...
+Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Nov 16 21:39:56 2023] Launched impl_1...
+Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.srcs/constrs_1/imports/lab3/converter.XDC]
+CRITICAL WARNING: [Common 17-69] Command failed: 'H18' is not a valid site or package pin name. [/nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.srcs/constrs_1/imports/lab3/converter.XDC:10]
+Finished Parsing XDC File [/nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.srcs/constrs_1/imports/lab3/converter.XDC]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 6788.027 ; gain = 422.121 ; free physical = 10504 ; free virtual = 22291
+write_schematic -format pdf -orientation portrait /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/Synthesis_schematic.pdf
+/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/Synthesis_schematic.pdf
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 7293.262 ; gain = 0.000 ; free physical = 10004 ; free virtual = 21795
+Restored from archive | CPU: 0.010000 secs | Memory: 0.023407 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 7293.262 ; gain = 0.000 ; free physical = 10004 ; free virtual = 21795
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+current_design synth_1
+write_schematic -format pdf -orientation portrait /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/schematic2.pdf
+/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/schematic2.pdf
+current_design impl_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 16 22:04:09 2023...

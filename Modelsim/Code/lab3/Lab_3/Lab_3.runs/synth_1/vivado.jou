@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 16 21:36:42 2023
+# Process ID: 16389
+# Current directory: /nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.runs/synth_1
+# Command line: vivado -log converter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source converter.tcl
+# Log file: /nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.runs/synth_1/converter.vds
+# Journal file: /nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source converter.tcl -notrace

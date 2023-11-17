@@ -1,0 +1,68 @@
+
+
+
+----------- Setting up Modelsim VHDL simulation tools -----------
+
+source /CMC/ENVIRONMENT/modelsim.env
+
+----------- Create VHD and Work file -----------
+
+cd /home/p/p_thibe/COEN313/Modelsim/lab...
+
+vlib work
+
+----------- Performing VHDL simulation using Modelsim ----------- 
+
+vcom your_file1.vhd your_file2.vhd
+
+----Quick checkup if the files were compiled
+
+cd work
+ls -al
+cd ..
+
+---- Running VSim
+
+vsim -do ../DO/yourdofile.do your_entity1 &
+
+
+
+----------- Run The board -----------
+
+---- check up
+
+lsusb
+source /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/settings64_CMC_central_license.csh
+
+---- go in the right directory
+
+cd /home/p/p_thibe/COEN313/Modelsim/lab...
+
+---- write xdc file and start vivado
+
+vivado &
+
+---- follow these steps to initialise project
+
+-Create Project
+-Next
+
+-Project_name 
+-Next
+
+-Select Rtl project
+-Next
+
+-add all vhd file (sourses)
+-Next
+
+-add all xdc file (Constraints)
+-Next
+
+-Search xc7a100tcsg324-1
+-Double click
+-Finish
+
+---- follow these steps for nexys quickstart page 12
+
+
