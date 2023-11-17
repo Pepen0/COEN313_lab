@@ -2,31 +2,46 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Thu Nov 16 21:27:14 2023
-# Process ID: 15470
-# Current directory: /nfs/home/p/p_thibe/COEN313
+# Start of session at: Fri Nov 17 14:03:26 2023
+# Process ID: 28279
+# Current directory: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3
 # Command line: vivado
-# Log file: /nfs/home/p/p_thibe/COEN313/vivado.log
-# Journal file: /nfs/home/p/p_thibe/COEN313/vivado.jou
+# Log file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/vivado.log
+# Journal file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/vivado.jou
 #-----------------------------------------------------------
 start_gui
-create_project Lab_3 /nfs/home/p/p_thibe/COEN313/Lab_3 -part xc7a100tcsg324-1
+create_project LAB3.1 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/LAB3.1 -part xc7a100tcsg324-1
 set_property target_language VHDL [current_project]
 set_property simulator_language VHDL [current_project]
 add_files -norecurse {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/converter.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/3bpadder.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/3binverter.vhd /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/3bMUX.vhd}
 import_files -force -norecurse
 import_files -fileset constrs_1 -force -norecurse /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/converter.XDC
 update_compile_order -fileset sources_1
-set_property target_constrs_file /nfs/home/p/p_thibe/COEN313/Lab_3/Lab_3.srcs/constrs_1/imports/lab3/converter.XDC [current_fileset -constrset]
+set_property target_constrs_file /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/LAB3.1/LAB3.1.srcs/constrs_1/imports/lab3/converter.XDC [current_fileset -constrset]
 launch_runs synth_1 -jobs 6
 wait_on_run synth_1
 launch_runs impl_1 -jobs 6
 wait_on_run impl_1
+open_run impl_1
 launch_runs impl_1 -to_step write_bitstream -jobs 6
 wait_on_run impl_1
-open_run synth_1 -name synth_1
-write_schematic -format pdf -orientation portrait /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/Synthesis_schematic.pdf
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+close_design
 open_run impl_1
-current_design synth_1
-write_schematic -format pdf -orientation portrait /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/schematic2.pdf
-current_design impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/LAB3.1/LAB3.1.runs/impl_1/converter.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/LAB3.1/LAB3.1.runs/impl_1/converter.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+write_schematic -format pdf -orientation portrait /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/finalschematic.pdf

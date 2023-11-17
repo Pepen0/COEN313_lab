@@ -4,19 +4,18 @@ K3
 cModel Technology
 Z0 d/home/p/p_thibe/COEN313/Modelsim/Code/lab3
 T_opt
-Z1 VQnDHSJe7_8L]C535m[2F[3
+Z1 VWdMfD=NfR3TF1KWXIBCRo1
 Z2 04 9 3 work converter rtl 1
-Z3 =1-047c162c5673-6556c9a8-ab844-353d
+Z3 =1-c8d9d233ca86-6557b56c-ba8f1-6ae6
 Z4 o-quiet -auto_acc_if_foreign -work work
 Z5 n@_opt
 Z6 OL;O;6.6g;45
 Z7 d/home/p/p_thibe/COEN313/Modelsim/Code/lab3
 Econverter
 Z8 w1700186518
-Z9 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
-Z10 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
-Z11 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-32
+Z9 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z10 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z11 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
 R7
 Z12 8converter.vhd
 Z13 Fconverter.vhd
@@ -24,31 +23,32 @@ l0
 L6
 Z14 V<nRgeVY<N0f221Pkhf^9a2
 Z15 OL;C;6.6g;45
+32
 Z16 tExplicit 1
 Z17 !s100 [NGESE]c<nmP=P3Nz>O640
 Artl
 Z18 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work 5 tbmux 0 22 dd?OAd:]4eg3@;KL;h<OV1
 Z19 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work 8 tbpadder 0 22 EaZGCZKD:GQMRN>j0VlV`0
 Z20 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work 10 tbinverter 0 22 hU2Eg>FW=E;fDN6bEHc6n2
+Z21 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z22 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z23 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z24 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work 9 converter 0 22 <nRgeVY<N0f221Pkhf^9a2
+32
+Z25 Mx3 17 __model_tech/ieee 14 std_logic_1164
+Z26 Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Z27 Mx1 17 __model_tech/ieee 15 std_logic_arith
+l50
+L14
+Z28 Vn`zA<SeWTNnO;chOe>iWL1
+R15
+R16
+Z29 !s100 WChaeRdN[HM;kB49KJ?id0
+Etbinverter
+Z30 w1700185366
 R9
 R10
 R11
-Z21 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab3/work 9 converter 0 22 <nRgeVY<N0f221Pkhf^9a2
-32
-Z22 Mx3 17 __model_tech/ieee 14 std_logic_1164
-Z23 Mx2 17 __model_tech/ieee 18 std_logic_unsigned
-Z24 Mx1 17 __model_tech/ieee 15 std_logic_arith
-l50
-L14
-Z25 Vn`zA<SeWTNnO;chOe>iWL1
-R15
-R16
-Z26 !s100 WChaeRdN[HM;kB49KJ?id0
-Etbinverter
-Z27 w1700185366
-Z28 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
-Z29 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
-Z30 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
 R7
 Z31 83binverter.vhd
 Z32 F3binverter.vhd
@@ -60,14 +60,14 @@ R15
 R16
 Z34 !s100 AD1;>@Ra>A:<i7E[XG@=?0
 Atrue_outputs
-R9
-R10
-R11
-R20
-32
+R21
 R22
 R23
-R24
+R20
+32
+R25
+R26
+R27
 l13
 L12
 Z35 V:3[H=zQ;2T7N7Y]7M=gf22
@@ -77,9 +77,9 @@ Z36 !s100 oK]gDi6Go>0jU9H]IUQSA1
 Z37 w1700182314
 Etbmux
 Z38 w1700185363
-R28
-R29
-R30
+R9
+R10
+R11
 R7
 Z39 83bMUX.vhd
 Z40 F3bMUX.vhd
@@ -91,14 +91,14 @@ R15
 R16
 Z42 !s100 8UBeC6T4f^EjLlS?G2?@N1
 Atrue_outputs
-R9
-R10
-R11
-R18
-32
+R21
 R22
 R23
-R24
+R18
+32
+R25
+R26
+R27
 l15
 L14
 Z43 V351k2<P3F`JVQN]1YF3Ig1
@@ -108,9 +108,9 @@ Z44 !s100 ;YK^;>DP0YE:WbMkgJOJ@3
 Z45 w1700183862
 Etbpadder
 Z46 w1700186340
-R28
-R29
-R30
+R9
+R10
+R11
 R7
 Z47 83bpadder.vhd
 Z48 F3bpadder.vhd
@@ -122,14 +122,14 @@ R15
 R16
 Z50 !s100 F_^]XAe6275;2EBUX0@KL0
 Atrue_outputs
-R9
-R10
-R11
-R19
-32
+R21
 R22
 R23
-R24
+R19
+32
+R25
+R26
+R27
 l14
 L12
 Z51 Vj]0oMJo;TSMzGH;1h[fig1
@@ -138,9 +138,9 @@ R16
 Z52 !s100 BW?J5hkYYkaTg2VoBI`T90
 Z53 w1700186225
 Abehavioral
-R28
-R29
-R30
+R9
+R10
+R11
 Z54 DEx4 work 8 tbpadder 0 22 EaZGCZKD:GQMRN>j0VlV`0
 l14
 L12
