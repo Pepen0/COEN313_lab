@@ -45,12 +45,16 @@ end component;
 
 component max_reg is
 port( din   : in std_logic_vector(3 downto 0);
+      clk   : in std_logic;
+      reset  : in  std_logic;
       maxout : out std_logic_vector(3 downto 0)
       );
 end component;
 
 component min_reg is
 port( din   : in std_logic_vector(3 downto 0);
+      clk   : in std_logic;
+      reset  : in  std_logic;
       minout : out std_logic_vector(3 downto 0)
       );
 end component;
@@ -58,13 +62,24 @@ end component;
 signal r0, r1, r2, r3, min_comb, max_comb : std_logic_vector(3 downto 0);
 
 for all : registers use entity work.registers(true_outputs);
-for all : fbMUX use entity work.fbMUX(true_outputs);
-for all : max_reg use entity work.max_reg(true_outputs);
-for all : min_reg use entity work.min_reg(true_outputs);
-for all : minMaxComb use entity work.minMaxComb(true_outputs);
+for mux : fbMUX use entity work.fbMUX(true_outputs);
+for Max_led : max_reg use entity work.max_reg(true_outputs);
+for Min_led : min_reg use entity work.min_reg(true_outputs);
+for Max_Min_comb_logic : minMaxComb use entity work.minMaxComb(true_outputs);
 
 begin
 
-reister0 : registers port map(din => din, reset => reset , clk => clk ,reg_out => r0);
+register0 : registers port map(din => din, reset => reset , clk => clk ,reg_out => r0);
+register1 : registers port map(din => r0, reset => reset , clk => clk ,reg_out => r1);
+register2 : registers port map(din => r1, reset => reset , clk => clk ,reg_out => r2);
+register3 : registers port map(din => r2, reset => reset , clk => clk ,reg_out => r3);
+
+mux : fbMUX port map(reg3 => r3, reg2 => r2, reg1 => r1, reg0 => r0, sel => sel, muxout => reg_out);
+
+Max_Min_comb_logic : minMaxComb port map(reg3 => r3, reg2 => r2, reg1 => r1, reg0 => r0, minout => min_comb, maxout => max_comb);
+
+Max_led : max_reg port map(din => max_comb, clk => clk, maxout => max_out);
+Min_led : min_reg port map(din => min_comb, clk => clk, minout => min_out);
+
 
 end architecture;
