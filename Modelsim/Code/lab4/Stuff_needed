@@ -1,0 +1,16 @@
+-------- For the lab 
+
+---- VHDL CODE
+-- register_min_max.vhd
+-- 4bMux.vhd
+
+
+
+
+
+-------- After the lab
+
+1. VHDL source code
+2. Xilinx Vivado implementation log file.
+3. RTL elaborated and implemented schematic diagrams as produced by Xilinx Vivado 
+4. Modelsim simulation results with judicious choice of test values.
