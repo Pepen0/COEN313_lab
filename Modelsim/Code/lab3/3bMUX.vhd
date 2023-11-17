@@ -1,5 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
 
 entity test is
     port (
@@ -10,14 +11,14 @@ entity test is
     );
 end entity;
 
-
 architecture true_outputs of test is
 begin
-
-    if sel = '0' then
-        out1(2 downto 0) <= in1(2 downto 0);
-    else
-        out1(2 downto 0 ) <= in2(2 downto 0);
-    end if;
-
+    process(in1, in2, sel)
+    begin
+        if sel = '0' then
+            out1(2 downto 0) <= in1(2 downto 0);
+        else
+            out1(2 downto 0) <= in2(2 downto 0);
+        end if;
+    end process;
 end architecture;
