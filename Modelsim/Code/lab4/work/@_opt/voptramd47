@@ -1,0 +1,206 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/p/p_thibe/COEN313/Modelsim/Code/lab4
+T_opt
+Z1 V_dJZeHP>9RLRbLVi49DVK1
+Z2 04 17 12 work registers_min_max true_outputs 1
+Z3 =1-c8d9d233ca86-6557c7cd-cab59-1a45
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.6g;45
+Z7 d/home/p/p_thibe/COEN313/Modelsim/Code/lab4
+Efbmux
+Z8 w1700249606
+Z9 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z10 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z11 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R7
+Z12 8fbMUX.vhd
+Z13 FfbMUX.vhd
+l0
+L5
+Z14 V9TZ6J`cBhSc]_6lQgT2PO0
+Z15 OL;C;6.6g;45
+Z16 tExplicit 1
+Z17 !s100 ]2zEjeV6XoQB=92hYek;K2
+Atrue_outputs
+R9
+R10
+R11
+Z18 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/work 5 fbmux 0 22 9TZ6J`cBhSc]_6lQgT2PO0
+32
+Z19 Mx3 17 __model_tech/ieee 14 std_logic_1164
+Z20 Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Z21 Mx1 17 __model_tech/ieee 15 std_logic_arith
+l16
+L15
+Z22 VDM:`:@1Ca`[0n2eR;JAmX2
+R15
+R16
+Z23 !s100 biD9z?11iRG:UWPGzj:R71
+Emax_reg
+Z24 w1700251298
+Z25 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R9
+R10
+R11
+32
+R7
+Z26 8max_reg.vhd
+Z27 Fmax_reg.vhd
+l0
+L6
+Z28 VE30Kfdl2BiUHLzU2@fL`R1
+R15
+R16
+Z29 !s100 FS`OCe=h9j9::jzNA6hBL2
+Atrue_outputs
+R25
+R9
+R10
+R11
+Z30 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/work 7 max_reg 0 22 E30Kfdl2BiUHLzU2@fL`R1
+32
+Z31 Mx4 17 __model_tech/ieee 14 std_logic_1164
+Z32 Mx3 17 __model_tech/ieee 18 std_logic_unsigned
+Z33 Mx2 17 __model_tech/ieee 15 std_logic_arith
+Z34 Mx1 17 __model_tech/ieee 11 numeric_std
+l15
+L13
+Z35 Vlo1ecXEcPPLdB91RA^F<01
+R15
+R16
+Z36 !s100 z2US8mgh60e50?Do<]2l_3
+Emin_reg
+Z37 w1700251503
+R25
+R9
+R10
+R11
+32
+R7
+Z38 8min_reg.vhd
+Z39 Fmin_reg.vhd
+l0
+L6
+Z40 VZS0Rn25n^=<^NX7PZ7?GI3
+R15
+R16
+Z41 !s100 nEKgWFH1g@@9UE=_ST>WK0
+Atrue_outputs
+R25
+R9
+R10
+R11
+Z42 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/work 7 min_reg 0 22 ZS0Rn25n^=<^NX7PZ7?GI3
+32
+R31
+R32
+R33
+R34
+l15
+L13
+Z43 V34QUiozDOT;99@QPh;Ofl2
+R15
+R16
+Z44 !s100 @N?V4gUcD5>;laGlAZ4L@1
+Eminmaxcomb
+Z45 w1700251432
+R9
+R10
+R11
+32
+R7
+Z46 8minMaxComb.vhd
+Z47 FminMaxComb.vhd
+l0
+L5
+Z48 VXEn6ZWY5BLo2A6Z2^]iS80
+R15
+R16
+Z49 !s100 Tz`>fLNOKC2ba:FjLX_:63
+Atrue_outputs
+R9
+R10
+R11
+Z50 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/work 10 minmaxcomb 0 22 XEn6ZWY5BLo2A6Z2^]iS80
+32
+R19
+R20
+R21
+l16
+L15
+Z51 V5KoAXQPDe8BBUcfj3[a?Q1
+R15
+R16
+Z52 !s100 QkZQl]`BfXD5nZEHdM9aE0
+Eregisters
+R8
+R9
+R10
+R11
+32
+R7
+Z53 8registers.vhd
+Z54 Fregisters.vhd
+l0
+L5
+Z55 VF99V7zFfMz?koZQ[[XNg40
+R15
+R16
+Z56 !s100 YIBdDYDidk]Sib5<lk?Y03
+Atrue_outputs
+R9
+R10
+R11
+Z57 DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/work 9 registers 0 22 F99V7zFfMz?koZQ[[XNg40
+32
+R19
+R20
+R21
+l14
+L13
+Z58 VQ[OSCPCmlLGZ:<VaJFcP32
+R15
+R16
+Z59 !s100 T:LLi?z1H7BRSV1@dGTlo1
+Eregisters_min_max
+Z60 w1700251270
+R9
+R10
+R11
+32
+R7
+Z61 8register_min_max.vhd
+Z62 Fregister_min_max.vhd
+l0
+L5
+Z63 VJmEaHDeC:<d[<Ka97R:zh1
+R15
+R16
+Z64 !s100 :Q9Go:FY@<YQj<egPETfc1
+Atrue_outputs
+R50
+R42
+R25
+R30
+R18
+R57
+R9
+R10
+R11
+DEx51 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/work 17 registers_min_max 0 22 JmEaHDeC:<d[<Ka97R:zh1
+32
+R31
+R32
+R33
+R34
+l68
+L16
+Z65 VkLDM<N2f9O<?b7b?dFZME2
+R15
+R16
+Z66 !s100 PX]hghG=dTYU55B<RJ<SF1

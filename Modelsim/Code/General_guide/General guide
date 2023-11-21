@@ -7,7 +7,7 @@ source /CMC/ENVIRONMENT/modelsim.env
 
 ----------- Create VHD and Work file -----------
 
-cd /home/p/p_thibe/COEN313/Modelsim/lab...
+cd /home/p/p_thibe/COEN313/Modelsim/Code/lab...
 
 vlib work
 

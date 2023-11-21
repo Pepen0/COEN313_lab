@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 17 15:48:29 2023
+# Process ID: 10916
+# Current directory: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/Lab_4.1/Lab_4.1.runs/impl_1
+# Command line: vivado -log registers_min_max.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source registers_min_max.tcl -notrace
+# Log file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/Lab_4.1/Lab_4.1.runs/impl_1/registers_min_max.vdi
+# Journal file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/lab4/Lab_4.1/Lab_4.1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source registers_min_max.tcl -notrace
