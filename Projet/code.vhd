@@ -32,8 +32,8 @@ architecture true_outputs of Code is
 
         port(
             clk: in std_logic;
-            in1: in std_logic;
-            in2: in std_logic;
+            in1: in std_logic_vector(7 downto 0);
+            in2: in std_logic_vector(7 downto 0);
             out1: out std_logic;
         );
     end component;
