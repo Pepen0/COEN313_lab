@@ -4,144 +4,183 @@ K3
 cModel Technology
 Z0 d/home/p/p_thibe/COEN313/Projet
 T_opt
-V6]E=Z1`L]:VfR4Hgj7I1I2
-04 4 12 work code true_outputs 1
-Z1 =1-047c162c4f6d-65610480-751e6-1930
-Z2 o-quiet -auto_acc_if_foreign -work work
-Z3 n@_opt
-Z4 OL;O;6.6g;45
-Z5 d/home/p/p_thibe/COEN313/Projet
+Z1 V6]E=Z1`L]:VfR4Hgj7I1I2
+Z2 04 4 12 work code true_outputs 1
+Z3 =1-047c162c4f6d-65610480-751e6-1930
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.6g;45
+Z7 d/home/p/p_thibe/COEN313/Projet
+T_opt1
+V672c@:mbL[gi@0@MnkBIl1
+Z8 04 7 12 work code_tb true_outputs 1
+Z9 =1-047c162c4f6d-65611503-2b09b-325e
+R4
+Z10 n@_opt1
+R6
+R7
 Eajuster
-Z6 w1700856555
-Z7 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
-Z8 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
-Z9 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
-Z10 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-R5
-Z11 8Ajuster.vhd
-Z12 FAjuster.vhd
+Z11 w1700856555
+Z12 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z13 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z15 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R7
+Z16 8Ajuster.vhd
+Z17 FAjuster.vhd
 l0
 L6
-Z13 VQF;;GZYL]3kR6h9dVS@M=2
-Z14 OL;C;6.6g;45
+Z18 VQF;;GZYL]3kR6h9dVS@M=2
+Z19 OL;C;6.6g;45
 32
-Z15 tExplicit 1
-Z16 !s100 cY:P2n6cZS_fgoZ9oTUkY2
+Z20 tExplicit 1
+Z21 !s100 cY:P2n6cZS_fgoZ9oTUkY2
 Atrue_outputs
-R7
-R8
-R9
-R10
-Z17 DEx4 work 7 ajuster 0 22 QF;;GZYL]3kR6h9dVS@M=2
+R12
+R13
+R14
+R15
+Z22 DEx4 work 7 ajuster 0 22 QF;;GZYL]3kR6h9dVS@M=2
 l19
 L17
-Z18 VBXUiJFJi[mFRAOeC7^NlK3
-R14
+Z23 VBXUiJFJi[mFRAOeC7^NlK3
+R19
 32
-Z19 Mx4 4 ieee 14 std_logic_1164
-Z20 Mx3 4 ieee 18 std_logic_unsigned
-Z21 Mx2 4 ieee 15 std_logic_arith
-Z22 Mx1 4 ieee 11 numeric_std
-R15
-Z23 !s100 oc=WojhOkV<<GB:N>nnRP1
+Z24 Mx4 4 ieee 14 std_logic_1164
+Z25 Mx3 4 ieee 18 std_logic_unsigned
+Z26 Mx2 4 ieee 15 std_logic_arith
+Z27 Mx1 4 ieee 11 numeric_std
+R20
+Z28 !s100 oc=WojhOkV<<GB:N>nnRP1
 Ecode
-Z24 w1700856816
-R8
-R9
-R10
-R5
-Z25 8code.vhd
-Z26 Fcode.vhd
+Z29 w1700856816
+R13
+R14
+R15
+R7
+Z30 8code.vhd
+Z31 Fcode.vhd
 l0
 L5
-Z27 V;<gW14DAKiMm7Df2RZW8c1
-R14
+Z32 V;<gW14DAKiMm7Df2RZW8c1
+R19
 32
-R15
-Z28 !s100 NC`eJ:HB71k8KJ]m78OoB2
+R20
+Z33 !s100 NC`eJ:HB71k8KJ]m78OoB2
 Atrue_outputs
-Z29 DEx4 work 10 comparater 0 22 9@[5n9c_A[gFGz[=L>9<T1
-R17
-R7
-Z30 DEx4 work 9 registers 0 22 OdVD4IWQKEUm:7<P@I:WO0
-R8
-R9
-R10
-Z31 DEx4 work 4 code 0 22 ;<gW14DAKiMm7Df2RZW8c1
+Z34 DEx4 work 10 comparater 0 22 9@[5n9c_A[gFGz[=L>9<T1
+R22
+R12
+Z35 DEx4 work 9 registers 0 22 OdVD4IWQKEUm:7<P@I:WO0
+R13
+R14
+R15
+Z36 DEx4 work 4 code 0 22 ;<gW14DAKiMm7Df2RZW8c1
 l60
 L17
-Z32 VQ=n^0mCMQ[o^YOd2ozL561
-R14
-32
+Z37 VQ=n^0mCMQ[o^YOd2ozL561
 R19
+32
+R24
+R25
+R26
+R27
 R20
-R21
-R22
+Z38 !s100 k2fm?ZO4hl;jGne]CkmO03
+Ecode_tb
+Z39 w1700861172
+R13
+R14
 R15
-Z33 !s100 k2fm?ZO4hl;jGne]CkmO03
-Ecomparater
-Z34 w1700856533
 R7
-R8
-R9
-R10
-R5
-Z35 8Comparater.vhd
-Z36 FComparater.vhd
+Z40 8Code_tb.vhd
+Z41 FCode_tb.vhd
+l0
+L5
+Z42 VYE78n?1cfSL0f`Mk5QKeA0
+R19
+32
+R20
+Z43 !s100 ^Pi:Mj<Tmz38R`^lMJni_1
+Atrue_outputs
+R36
+R13
+R14
+R15
+Z44 DEx4 work 7 code_tb 0 22 YE78n?1cfSL0f`Mk5QKeA0
+l32
+L11
+Z45 VFezA2NE=A3D^YnG5eRBAi1
+R19
+32
+Z46 Mx3 4 ieee 14 std_logic_1164
+Z47 Mx2 4 ieee 18 std_logic_unsigned
+Z48 Mx1 4 ieee 15 std_logic_arith
+R20
+Z49 !s100 MZhm4RU;?79IeBV6F6aS71
+Ecomparater
+Z50 w1700856533
+R12
+R13
+R14
+R15
+R7
+Z51 8Comparater.vhd
+Z52 FComparater.vhd
 l0
 L6
-Z37 V9@[5n9c_A[gFGz[=L>9<T1
-R14
+Z53 V9@[5n9c_A[gFGz[=L>9<T1
+R19
 32
-R15
-Z38 !s100 UJ=z>?fQFWTGFT3988mZ=0
+R20
+Z54 !s100 UJ=z>?fQFWTGFT3988mZ=0
 Atrue_outputs
-R7
-R8
-R9
-R10
-R29
+R12
+R13
+R14
+R15
+R34
 l16
 L15
-Z39 V7F425lh?26gINXQZ`3^Q93
-R14
-32
+Z55 V7F425lh?26gINXQZ`3^Q93
 R19
+32
+R24
+R25
+R26
+R27
 R20
-R21
-R22
-R15
-Z40 !s100 ?Fegg:?@_lbIVZjDJef8Z3
+Z56 !s100 ?Fegg:?@_lbIVZjDJef8Z3
 Eregisters
-Z41 w1700856538
+Z57 w1700856538
+R12
+R13
+R14
+R15
 R7
-R8
-R9
-R10
-R5
-Z42 8register.vhd
-Z43 Fregister.vhd
+Z58 8register.vhd
+Z59 Fregister.vhd
 l0
 L6
-Z44 VOdVD4IWQKEUm:7<P@I:WO0
-R14
+Z60 VOdVD4IWQKEUm:7<P@I:WO0
+R19
 32
-R15
-Z45 !s100 hbbj6D7S_1mGj]WAChhgH2
+R20
+Z61 !s100 hbbj6D7S_1mGj]WAChhgH2
 Atrue_outputs
-R7
-R8
-R9
-R10
-R30
+R12
+R13
+R14
+R15
+R35
 l17
 L15
-Z46 VJPf<TndZTeIQiDg`YE:X<3
-R14
-32
+Z62 VJPf<TndZTeIQiDg`YE:X<3
 R19
+32
+R24
+R25
+R26
+R27
 R20
-R21
-R22
-R15
-Z47 !s100 eZVS5L]ZJ][U>ATOYg_Xe2
+Z63 !s100 eZVS5L]ZJ][U>ATOYg_Xe2

@@ -2,15 +2,15 @@ LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-ENTITY tb IS
+ENTITY Code_tb IS
 
 BEGIN
 
-END tb;
+END Code_tb;
 
-ARCHITECTURE top OF tb IS
+ARCHITECTURE true_outputs OF Code_tb IS
 
-    CONSTANT max_simulation_time : TIME := 500 ns;
+    CONSTANT max_simulation_time : TIME := 1500 ns;
     CONSTANT clk_period          : TIME := 10 ns;
 
     COMPONENT Code IS
@@ -55,25 +55,25 @@ BEGIN
 
     gen_stimuli: PROCESS
     BEGIN
-        -- Reset
+        -- Reset to make sure everythin is assigned teh 0 value
         WAIT UNTIL my_clk'event AND my_clk = '0';
         my_reset <= '1';
         WAIT UNTIL my_clk'event AND my_clk = '0';
         my_reset <= '0';
 
-        -- Simulate entry (in1 signal)
+        -- Simulate entry ( X signal)
         WAIT UNTIL my_clk'event AND my_clk = '0';
-        in1 <= '1'; -- Person enters
+        in1 <= '1'; -- Person enters for the first time
         WAIT UNTIL my_clk'event AND my_clk = '0';
         in1 <= '0';
 
-        -- Simulate exit (in2 signal)
+        -- Simulate exit ( Y signal)
         WAIT UNTIL my_clk'event AND my_clk = '0';
-        in2 <= '1'; -- Person exits
+        in2 <= '1'; -- Person exits for the first time 
         WAIT UNTIL my_clk'event AND my_clk = '0';
         in2 <= '0';
 
-        -- Simulate multiple entries to test occupancy limit
+        -- Simulate multiple 70 entries to test occupancy limit
         FOR i IN 1 TO 70 LOOP
             WAIT UNTIL my_clk'event AND my_clk = '0';
             in1 <= '1';
@@ -90,4 +90,4 @@ BEGIN
         WAIT; -- End of simulation
     END PROCESS;
 
-END top;
+END true_outputs;
