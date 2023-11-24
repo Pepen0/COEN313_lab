@@ -8,7 +8,7 @@ entity registers is
         clk: in std_logic;
         reset: in std_logic;
         din: in std_logic_vector(7 downto 0);
-        dout: out std_logic_vector(7 downto 0);
+        dout: out std_logic_vector(7 downto 0)
     );
 end registers;
 
@@ -25,4 +25,3 @@ begin
     end process;
     dout <= reg;
 end true_outputs;
-```

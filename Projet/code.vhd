@@ -9,7 +9,7 @@ entity Code is
         reset: in std_logic;
         in1: in std_logic;
         in2: in std_logic;
-        out1: out std_logic;
+        out1: out std_logic
     );
 
 end Code;
@@ -24,7 +24,7 @@ architecture true_outputs of Code is
             in1: in std_logic;
             in2: in std_logic;
             curent_register: in std_logic_vector(7 downto 0);
-            Next_register: out std_logic_vector(7 downto 0);
+            Next_register: out std_logic_vector(7 downto 0)
         );
     end component;
 
@@ -34,7 +34,7 @@ architecture true_outputs of Code is
             clk: in std_logic;
             in1: in std_logic_vector(7 downto 0);
             in2: in std_logic_vector(7 downto 0);
-            out1: out std_logic;
+            out1: out std_logic
         );
     end component;
 
@@ -43,14 +43,14 @@ architecture true_outputs of Code is
             clk: in std_logic;
             reset: in std_logic;
             din: in std_logic_vector(7 downto 0);
-            dout: out std_logic_vector(7 downto 0);
+            dout: out std_logic_vector(7 downto 0)
         );
     end component;
 
-    signal curent_register: std_logic_vector(7 downto 0):= "000000000";
-    signal Next_register: std_logic_vector(7 downto 0):= "000000000";
-    signal max_occupancy: std_logic_vector(7 downto 0) := "000111111";
-    signal max_register_out: std_logic_vector(7 downto 0) := "000000000";
+    signal curent_register: std_logic_vector(7 downto 0):= "00000000";
+    signal Next_register: std_logic_vector(7 downto 0):= "00000000";
+    signal max_occupancy: std_logic_vector(7 downto 0) := "00111111";
+    signal max_register_out: std_logic_vector(7 downto 0) := "00000000";
 
 
     for all: registers use entity work.registers(true_outputs);
@@ -59,14 +59,14 @@ architecture true_outputs of Code is
 
 begin
 
-    register_current_occupancy : register port map(
+    register_current_occupancy : registers port map(
         clk => clk,
         reset => reset,
         din => Next_register,
         dout => curent_register
     );
 
-    register_max_occupancy : register port map(
+    register_max_occupancy : registers port map(
         clk => clk,
         reset => reset,
         din => max_occupancy,

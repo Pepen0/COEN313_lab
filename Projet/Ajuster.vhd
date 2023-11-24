@@ -10,7 +10,7 @@ entity Ajuster is
         in1: in std_logic;
         in2: in std_logic;
         curent_register: in std_logic_vector(7 downto 0);
-        Next_register: out std_logic_vector(7 downto 0);
+        Next_register: out std_logic_vector(7 downto 0)
     );
 end Ajuster;
 
@@ -32,4 +32,3 @@ begin
             end if;
     end process;
 end true_outputs;
-```

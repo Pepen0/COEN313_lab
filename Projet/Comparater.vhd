@@ -8,7 +8,7 @@ entity Comparater is
         clk: in std_logic;
         in1: in std_logic_vector(7 downto 0);
         in2: in std_logic_vector(7 downto 0);
-        out1: out std_logic;
+        out1: out std_logic
     );
 end entity Comparater;
 
@@ -25,4 +25,3 @@ architecture true_outputs of Comparater is
                 end if;
         end process;
 end architecture true_outputs;
-```
