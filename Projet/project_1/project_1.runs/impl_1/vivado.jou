@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 24 20:55:25 2023
+# Process ID: 7540
+# Current directory: /nfs/home/p/p_thibe/COEN313/Projet/project_1/project_1.runs/impl_1
+# Command line: vivado -log Code.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Code.tcl -notrace
+# Log file: /nfs/home/p/p_thibe/COEN313/Projet/project_1/project_1.runs/impl_1/Code.vdi
+# Journal file: /nfs/home/p/p_thibe/COEN313/Projet/project_1/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Code.tcl -notrace

@@ -1,0 +1,199 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:02:38 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 6766
+License: Customer
+
+Current time: 	Fri Nov 24 20:51:15 EST 2023
+Time zone: 	Eastern Standard Time (America/Montreal)
+
+OS: Scientific Linux release 7.9 (Nitrogen)
+OS Version: 3.10.0-1160.102.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 19 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/nfs/sw_cmc/x86_64.EL7/tools/xilinx/Vivado_2018.2/Vivado/2018.2/tps/lnx64/jre
+Java executable location: 	/nfs/sw_cmc/x86_64.EL7/tools/xilinx/Vivado_2018.2/Vivado/2018.2/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	p_thibe
+User home directory: /nfs/home/p/p_thibe
+User working directory: /nfs/home/p/p_thibe/COEN313/Projet
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /nfs/sw_cmc/x86_64.EL7/tools/xilinx/Vivado_2018.2/Vivado
+HDI_APPROOT: /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2
+RDI_DATADIR: /nfs/sw_cmc/x86_64.EL7/tools/xilinx/Vivado_2018.2/Vivado/2018.2/data
+RDI_BINDIR: /nfs/sw_cmc/x86_64.EL7/tools/xilinx/Vivado_2018.2/Vivado/2018.2/bin
+
+Vivado preferences file location: /home/p/p_thibe/.Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: /home/p/p_thibe/.Xilinx/Vivado/2018.2/
+Vivado layouts directory: /nfs/home/p/p_thibe/.Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	/nfs/sw_cmc/x86_64.EL7/tools/xilinx/Vivado_2018.2/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	/nfs/home/p/p_thibe/COEN313/Projet/vivado.log
+Vivado journal file location: 	/nfs/home/p/p_thibe/COEN313/Projet/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-6766-timote.encs.concordia.ca
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 6062@license-cadpass.encs.concordia.ca:6088@license-cadpass.encs.concordia.ca
+XILINX_DSP: /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2
+XILINX_SDK: /CMC/tools/xilinx/Vivado_2018.2/SDK/2018.2
+XILINX_VIVADO: /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2
+XILINX_VIVADO_HLS: /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2
+
+
+GUI allocated memory:	176 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,006 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 74 MB (+75609kb) [00:00:05]
+// [Engine Memory]: 5,006 MB (+5097298kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,006 MB. GUI used memory: 35 MB. Current time: 11/24/23 8:51:17 PM EST
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x (w, ck)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (ck): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,055 MB. GUI used memory: 37 MB. Current time: 11/24/23 8:51:59 PM EST
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("BACK", "< Back"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, f)
+// Elapsed time: 15 seconds
+String[] filenames31467 = {"/nfs/home/p/p_thibe/COEN313/Projet/Ajuster.vhd", "/nfs/home/p/p_thibe/COEN313/Projet/Comparater.vhd", "/nfs/home/p/p_thibe/COEN313/Projet/code.vhd", "/nfs/home/p/p_thibe/COEN313/Projet/register.vhd"};
+setFileChooser(filenames31467);
+// Elapsed time: 10 seconds
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a (C, f)
+setFileChooser("/nfs/home/p/p_thibe/COEN313/Projet/constraint.xdc");
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// Elapsed time: 60 seconds
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", "xc7a100tcs"); // OverlayTextField (G, f)
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a100tcsg324-1 ; 324 ; 210 ; 63400 ; 126800 ; 135 ; 0 ; 240 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 6 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 3, "xc7a100tcsg324-1", 0); // v (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bx (f):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project project_1 /nfs/home/p/p_thibe/COEN313/Projet/project_1 -part xc7a100tcsg324-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property simulator_language VHDL [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {/nfs/home/p/p_thibe/COEN313/Projet/register.vhd /nfs/home/p/p_thibe/COEN313/Projet/Ajuster.vhd /nfs/home/p/p_thibe/COEN313/Projet/code.vhd /nfs/home/p/p_thibe/COEN313/Projet/Comparater.vhd} 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -force -norecurse 
+// Tcl Message: INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1' 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset constrs_1 -force -norecurse /nfs/home/p/p_thibe/COEN313/Projet/constraint.xdc 
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 113 seconds
+dismissDialog("Create Project"); // bx (f)
+dismissDialog("New Project"); // f (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B (D, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,156 MB. GUI used memory: 42 MB. Current time: 11/24/23 8:53:52 PM EST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraint.xdc]", 2, false); // B (D, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraint.xdc]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_TARGET_UCF, "Set as Target Constraint File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SET_TARGET_UCF
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property target_constrs_file /nfs/home/p/p_thibe/COEN313/Projet/project_1/project_1.srcs/constrs_1/imports/Projet/constraint.xdc [current_fileset -constrset] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 79 MB (+934kb) [00:02:47]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: [Fri Nov 24 20:54:06 2023] Launched synth_1... Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Projet/project_1/project_1.runs/synth_1/runme.log 
+// [GUI Memory]: 83 MB (+0kb) [00:02:56]
+dismissDialog("Starting Design Runs"); // bx (ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 402ms to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 579ms to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 87 MB (+87kb) [00:03:40]
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 74 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// Tcl Message: [Fri Nov 24 20:55:24 2023] Launched impl_1... Run output will be captured here: /nfs/home/p/p_thibe/COEN313/Projet/project_1/project_1.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ck): Implementation Failed: addNotify
+// Elapsed time: 68 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_LOG_WINDOW, "View Log"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // ah (ck)
+// Elapsed time: 19 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "3 errors"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// Elapsed time: 19 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-876] Port 'clk'  is assigned to PACKAGE_PIN 'R15'  which can only be used as the N side of a differential clock input. . Please use the following constraint(s) to pass this DRC check:. set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {clk_IBUF}]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "ID;-;[Place 30-876];-;;-;16;-;Resolution;-;Please use the xdc constraints above.;-;;-;16;-;"); // ah (O, ck)
+// 'Place 30-876' Message Details: show
+// Elapsed time: 30 seconds
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+// 'Place 30-876' Message Details: hide
+// [GUI Memory]: 93 MB (+905kb) [00:13:48]

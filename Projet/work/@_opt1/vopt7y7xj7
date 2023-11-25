@@ -12,9 +12,9 @@ Z5 n@_opt
 Z6 OL;O;6.6g;45
 Z7 d/home/p/p_thibe/COEN313/Projet
 T_opt1
-Z8 V672c@:mbL[gi@0@MnkBIl1
+Z8 V8_=R50ib7>aES?K_>;fH@2
 Z9 04 7 12 work code_tb true_outputs 1
-Z10 =1-047c162c4f6d-65611503-2b09b-325e
+Z10 =1-047c162c597b-65614fb4-669a1-1243
 R4
 Z11 n@_opt1
 R6
@@ -89,10 +89,9 @@ R21
 Z43 !s100 k2fm?ZO4hl;jGne]CkmO03
 Ecode_tb
 Z44 w1700861172
-R24
-R25
-R26
-32
+R14
+R15
+R16
 R7
 Z45 8Code_tb.vhd
 Z46 FCode_tb.vhd
@@ -100,6 +99,7 @@ l0
 L5
 Z47 VYE78n?1cfSL0f`Mk5QKeA0
 R20
+32
 R21
 Z48 !s100 ^Pi:Mj<Tmz38R`^lMJni_1
 Atrue_outputs

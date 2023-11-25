@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 24 20:51:00 2023
+# Process ID: 6766
+# Current directory: /nfs/home/p/p_thibe/COEN313/Projet
+# Command line: vivado
+# Log file: /nfs/home/p/p_thibe/COEN313/Projet/vivado.log
+# Journal file: /nfs/home/p/p_thibe/COEN313/Projet/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_1 /nfs/home/p/p_thibe/COEN313/Projet/project_1 -part xc7a100tcsg324-1
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {/nfs/home/p/p_thibe/COEN313/Projet/register.vhd /nfs/home/p/p_thibe/COEN313/Projet/Ajuster.vhd /nfs/home/p/p_thibe/COEN313/Projet/code.vhd /nfs/home/p/p_thibe/COEN313/Projet/Comparater.vhd}
+import_files -force -norecurse
+import_files -fileset constrs_1 -force -norecurse /nfs/home/p/p_thibe/COEN313/Projet/constraint.xdc
+update_compile_order -fileset sources_1
+set_property target_constrs_file /nfs/home/p/p_thibe/COEN313/Projet/project_1/project_1.srcs/constrs_1/imports/Projet/constraint.xdc [current_fileset -constrset]
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1

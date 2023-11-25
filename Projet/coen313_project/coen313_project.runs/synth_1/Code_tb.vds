@@ -1,0 +1,150 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 24 20:47:07 2023
+# Process ID: 5790
+# Current directory: /nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.runs/synth_1
+# Command line: vivado -log Code_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Code_tb.tcl
+# Log file: /nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.runs/synth_1/Code_tb.vds
+# Journal file: /nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Code_tb.tcl -notrace
+Command: synth_design -top Code_tb -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5808 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1401.578 ; gain = 85.801 ; free physical = 12318 ; free virtual = 23543
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Code_tb' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:11]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:42]
+INFO: [Common 17-14] Message 'Synth 8-312' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3491] module 'Code' declared at '/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/code.vhd:5' bound to instance 'Code_inst' of component 'Code' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'Code' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/code.vhd:17]
+INFO: [Synth 8-3491] module 'registers' declared at '/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/register.vhd:6' bound to instance 'register_current_occupancy' of component 'registers' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/code.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'registers' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/register.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'registers' (1#1) [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/register.vhd:15]
+INFO: [Synth 8-3491] module 'registers' declared at '/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/register.vhd:6' bound to instance 'register_max_occupancy' of component 'registers' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/code.vhd:69]
+INFO: [Synth 8-3491] module 'Ajuster' declared at '/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Ajuster.vhd:6' bound to instance 'Ajuster1' of component 'Ajuster' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/code.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'Ajuster' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Ajuster.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'Ajuster' (2#1) [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Ajuster.vhd:17]
+INFO: [Synth 8-3491] module 'Comparater' declared at '/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Comparater.vhd:6' bound to instance 'Comparater1' of component 'Comparater' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/code.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'Comparater' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Comparater.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Comparater' (3#1) [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Comparater.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Code' (4#1) [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/code.vhd:17]
+WARNING: [Synth 8-2897] clock signal used as data [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:61]
+WARNING: [Synth 8-2897] clock signal used as data [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:61]
+WARNING: [Synth 8-2897] clock signal used as data [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:61]
+ERROR: [Synth 8-27] nested clocked statements not supported [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:62]
+ERROR: [Synth 8-285] failed synthesizing module 'Code_tb' [/nfs/home/p/p_thibe/COEN313/Projet/coen313_project/coen313_project.srcs/sources_1/imports/Projet/Code_tb.vhd:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1446.203 ; gain = 130.426 ; free physical = 12327 ; free virtual = 23554
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 103 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 24 20:47:21 2023...
