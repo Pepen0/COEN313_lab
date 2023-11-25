@@ -9,7 +9,7 @@ set_property -dict { PACKAGE_PIN R15   IOSTANDARD LVCMOS33 } [get_ports { din[3]
 set_property -dict { PACKAGE_PIN U11   IOSTANDARD LVCMOS33 } [get_ports { reset }];
 
 
-set_property -dict { PACKAGE_PIN V10    IOSTANDARD LVCMOS33 } [get_ports { clk }];
+set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clk }];
 
 
 set_property -dict { PACKAGE_PIN H6   IOSTANDARD LVCMOS33 } [get_ports { sel[0] }];
