@@ -32,6 +32,9 @@ vsim -do ../DO/yourdofile.do your_entity1 &
 ---- check up
 
 lsusb
+
+----  setup vivado
+ 
 source /CMC/tools/xilinx/Vivado_2018.2/Vivado/2018.2/settings64_CMC_central_license.csh
 
 ---- go in the right directory
