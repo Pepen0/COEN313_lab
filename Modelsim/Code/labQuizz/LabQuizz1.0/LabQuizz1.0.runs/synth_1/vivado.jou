@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec  1 15:34:50 2023
+# Process ID: 10936
+# Current directory: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/LabQuizz1.0/LabQuizz1.0.runs/synth_1
+# Command line: vivado -log reg_normalizer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source reg_normalizer.tcl
+# Log file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/LabQuizz1.0/LabQuizz1.0.runs/synth_1/reg_normalizer.vds
+# Journal file: /nfs/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/LabQuizz1.0/LabQuizz1.0.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source reg_normalizer.tcl -notrace

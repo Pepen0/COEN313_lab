@@ -1,0 +1,141 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz
+T_opt
+Z1 V@E0>EM@`08zfZA]`Z56To0
+Z2 04 14 12 work reg_normalizer true_outputs 1
+Z3 =1-c8d9d233cc66-656a40f8-8b7bb-26ee
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.6g;45
+Z7 d/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz
+Ereg_normalizer
+Z8 w1701462120
+Z9 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z10 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z11 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R7
+Z12 8reg_normalizer.vhd
+Z13 Freg_normalizer.vhd
+l0
+L5
+Z14 VVfKP5=UP5Jz;0030YFXhU0
+Z15 OL;C;6.6g;45
+32
+Z16 tExplicit 1
+Z17 !s100 aFA@6=V]mSYGVJK:N^MCS0
+Atrue_outputs
+Z18 DEx55 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/work 11 remove_zero 0 22 zUSLOzng:Q]55Mm_Kdm_e0
+Z19 DEx55 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/work 5 tbmux 0 22 O7J@L>c]J_ZJhnCB;?cn=2
+Z20 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z21 DEx55 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/work 9 registers 0 22 lSdKF4M7^NO<TZ3TIJ0kM0
+Z22 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z23 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z24 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z25 DEx55 /nfs/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/work 14 reg_normalizer 0 22 VfKP5=UP5Jz;0030YFXhU0
+32
+Z26 Mx4 17 __model_tech/ieee 14 std_logic_1164
+Z27 Mx3 17 __model_tech/ieee 18 std_logic_unsigned
+Z28 Mx2 17 __model_tech/ieee 15 std_logic_arith
+Z29 Mx1 17 __model_tech/ieee 11 numeric_std
+l46
+L14
+Z30 Va3WCDY`M`IjQKM_TFX>`;3
+Z31 !s100 AL40^L[YMi46G9`<mI8S61
+R15
+R16
+Eregisters
+Z32 w1701459794
+Z33 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R9
+R10
+R11
+R7
+Z34 8registers.vhd
+Z35 Fregisters.vhd
+l0
+L6
+Z36 VlSdKF4M7^NO<TZ3TIJ0kM0
+R15
+32
+R16
+Z37 !s100 MP;41hfIRj?NFPOn1SC3m1
+Atrue_outputs
+R20
+R22
+R23
+R24
+R21
+32
+R26
+R27
+R28
+R29
+l15
+L13
+Z38 V38WAWMGRK8=MEn?RHHc7D0
+R15
+R16
+Z39 !s100 I7D]A`OW9B5AS97^7f;>h0
+Eremove_zero
+Z40 w1701461303
+R9
+R10
+R11
+R7
+Z41 8remove_zero.vhd
+Z42 Fremove_zero.vhd
+l0
+L5
+Z43 VzUSLOzng:Q]55Mm_Kdm_e0
+R15
+32
+R16
+Z44 !s100 OWT`10mL:fI]0f^d>HhIL2
+Atrue_outputs
+R22
+R23
+R24
+R18
+32
+Z45 Mx3 17 __model_tech/ieee 14 std_logic_1164
+Z46 Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Z47 Mx1 17 __model_tech/ieee 15 std_logic_arith
+l13
+L12
+Z48 V;gCWRTzjDfe:oj]99bO0B0
+R15
+R16
+Z49 !s100 zZ<>EgUD4cX`V>jYCa`BO1
+Etbmux
+Z50 w1701460334
+R9
+R10
+R11
+R7
+Z51 8tbMUX.vhd
+Z52 FtbMUX.vhd
+l0
+L5
+Z53 VO7J@L>c]J_ZJhnCB;?cn=2
+R15
+32
+R16
+Z54 !s100 Wb1flJ4UgQk[RD];GkPha2
+Atrue_outputs
+R22
+R23
+R24
+R19
+32
+R45
+R46
+R47
+l14
+L13
+Z55 VgBSlTK:cYD6MG`1OMB]293
+R15
+R16
+Z56 !s100 5C9Beh9P@^fJGG^=k?LDA3

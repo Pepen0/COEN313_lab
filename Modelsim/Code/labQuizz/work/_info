@@ -1,0 +1,141 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz
+T_opt
+V@E0>EM@`08zfZA]`Z56To0
+Z1 04 14 12 work reg_normalizer true_outputs 1
+Z2 =1-c8d9d233cc66-656a40f8-8b7bb-26ee
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 n@_opt
+Z5 OL;O;6.6g;45
+Z6 d/home/p/p_thibe/COEN313/Modelsim/Code/labQuizz
+Ereg_normalizer
+Z7 w1701462120
+Z8 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z9 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z10 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R6
+Z11 8reg_normalizer.vhd
+Z12 Freg_normalizer.vhd
+l0
+L5
+Z13 VVfKP5=UP5Jz;0030YFXhU0
+Z14 OL;C;6.6g;45
+32
+Z15 tExplicit 1
+Z16 !s100 aFA@6=V]mSYGVJK:N^MCS0
+Atrue_outputs
+Z17 DEx4 work 11 remove_zero 0 22 zUSLOzng:Q]55Mm_Kdm_e0
+Z18 DEx4 work 5 tbmux 0 22 O7J@L>c]J_ZJhnCB;?cn=2
+Z19 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z20 DEx4 work 9 registers 0 22 lSdKF4M7^NO<TZ3TIJ0kM0
+R8
+R9
+R10
+Z21 DEx4 work 14 reg_normalizer 0 22 VfKP5=UP5Jz;0030YFXhU0
+l46
+L14
+Z22 Va3WCDY`M`IjQKM_TFX>`;3
+R14
+32
+Z23 Mx4 4 ieee 14 std_logic_1164
+Z24 Mx3 4 ieee 18 std_logic_unsigned
+Z25 Mx2 4 ieee 15 std_logic_arith
+Z26 Mx1 4 ieee 11 numeric_std
+R15
+Z27 !s100 AL40^L[YMi46G9`<mI8S61
+Eregisters
+Z28 w1701459794
+R19
+R8
+R9
+R10
+R6
+Z29 8registers.vhd
+Z30 Fregisters.vhd
+l0
+L6
+Z31 VlSdKF4M7^NO<TZ3TIJ0kM0
+R14
+32
+R15
+Z32 !s100 MP;41hfIRj?NFPOn1SC3m1
+Atrue_outputs
+R19
+R8
+R9
+R10
+R20
+l15
+L13
+Z33 V38WAWMGRK8=MEn?RHHc7D0
+R14
+32
+R23
+R24
+R25
+R26
+R15
+Z34 !s100 I7D]A`OW9B5AS97^7f;>h0
+Eremove_zero
+Z35 w1701461303
+R8
+R9
+R10
+R6
+Z36 8remove_zero.vhd
+Z37 Fremove_zero.vhd
+l0
+L5
+Z38 VzUSLOzng:Q]55Mm_Kdm_e0
+R14
+32
+R15
+Z39 !s100 OWT`10mL:fI]0f^d>HhIL2
+Atrue_outputs
+R8
+R9
+R10
+R17
+l13
+L12
+Z40 V;gCWRTzjDfe:oj]99bO0B0
+R14
+32
+Z41 Mx3 4 ieee 14 std_logic_1164
+Z42 Mx2 4 ieee 18 std_logic_unsigned
+Z43 Mx1 4 ieee 15 std_logic_arith
+R15
+Z44 !s100 zZ<>EgUD4cX`V>jYCa`BO1
+Etbmux
+Z45 w1701460334
+R8
+R9
+R10
+R6
+Z46 8tbMUX.vhd
+Z47 FtbMUX.vhd
+l0
+L5
+Z48 VO7J@L>c]J_ZJhnCB;?cn=2
+R14
+32
+R15
+Z49 !s100 Wb1flJ4UgQk[RD];GkPha2
+Atrue_outputs
+R8
+R9
+R10
+R18
+l14
+L13
+Z50 VgBSlTK:cYD6MG`1OMB]293
+R14
+32
+R41
+R42
+R43
+R15
+Z51 !s100 5C9Beh9P@^fJGG^=k?LDA3

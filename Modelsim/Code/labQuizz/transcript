@@ -1,0 +1,24 @@
+# //  ModelSim SE-64 6.6g May 23 2012 Linux 3.10.0-1160.102.1.el7.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -do /home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/Do/labQuizz.do reg_normalizer 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.reg_normalizer(true_outputs)#1
+# Loading work.registers(true_outputs)#1
+# Loading work.tbmux(true_outputs)#1
+# Loading work.remove_zero(true_outputs)#1
+# do /home/p/p_thibe/COEN313/Modelsim/Code/labQuizz/Do/labQuizz.do 
+# 
+#  
